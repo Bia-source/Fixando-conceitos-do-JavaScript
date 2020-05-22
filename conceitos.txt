@@ -1,0 +1,2 @@
+********************************** JavaScript ****************************
+AJAX - requisições feitas ao backend no JavaScript 
