@@ -11,6 +11,7 @@
 // }
 //----------------------------------------------------------------//
 
+// FAZENDO UMA REQUISIÇÃO DO TIPO GET QUE RETORNA UM OBJETO JSON 
 var minhaPromise = function(){
     return new Promise(function(resolve, reject){
         var xhr = new XMLHttpRequest();
@@ -31,3 +32,13 @@ var minhaPromise = function(){
     });
 
     }
+
+// CHAMANDO FUNÇÃO E TRATANDO O SUCESSO DA REQUISIÇÃO '.THEN ' ||  ERRO NA REQUISIÇÃO '.CATCH'
+ minhaPromise()
+ .then(function(response){
+     console.log(response);
+ })
+ .catch(function(error){
+     console.log(error);
+ })
+ ;
